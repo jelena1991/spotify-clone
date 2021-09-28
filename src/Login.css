@@ -1,0 +1,18 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login > a {
+  background-color: #1ed760;
+  color: white;
+  padding: 20px;
+  border-radius: 99px;
+  text-decoration: none;
+}
+
+.login > a:focus {
+  outline-offset: unset;
+}
